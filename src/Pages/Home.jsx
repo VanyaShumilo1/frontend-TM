@@ -7,8 +7,8 @@ import UsersTableHeader from "../Components/UsersTableHeader.jsx";
 import Table from "../Components/Table.jsx";
 import Pagination from "../Components/Pagination.jsx";
 import {getPagesCount} from "../utils/pages.js";
-
 const Home = () => {
+
 
     const [users, setUsers] = useState([])
     const [events, setEvents] = useState([])
